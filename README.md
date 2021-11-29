@@ -1,4 +1,4 @@
-# Algorithm-Training
+# Coding-Test-Training
 
 코딩 테스트 트레이닝 기록 입니다
 
