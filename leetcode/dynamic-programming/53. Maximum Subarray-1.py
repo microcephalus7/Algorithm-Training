@@ -1,3 +1,5 @@
+# 메모이제이션
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         sums: List[int] = [nums[0]]
