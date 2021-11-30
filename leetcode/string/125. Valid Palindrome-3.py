@@ -1,8 +1,4 @@
-# isalnum 이용
-
-# 논리 순서
-# 1. 반복문 돌며 isalnum
-# 2. len 이용하여 처음, 끝에서부터 확인
+# isalnum, for
 
 
 class Solution:

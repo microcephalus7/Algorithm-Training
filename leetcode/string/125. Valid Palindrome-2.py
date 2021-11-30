@@ -1,8 +1,4 @@
-# isalnum 이용
-
-# 논리 순서
-# 1. 반복문 돌며 isalnum
-# 2. 뒤집으며 비교
+# isalnum, [::-1]
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:

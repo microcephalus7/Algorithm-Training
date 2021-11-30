@@ -1,8 +1,4 @@
-# deque 이용
-
-# 논리 순서
-# 1. 반복문 돌며 isalnum
-# 2. pop, popleft 으로 비교
+# deque
 
 
 from typing import Deque
