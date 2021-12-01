@@ -1,4 +1,4 @@
-# 역순 노드, while
+# 재귀
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -7,9 +7,12 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        rev = None
 
-        while head:
-            rev, rev.next, head = head, rev, head.next
+        def reverse(node: ListNode, prev: ListNode = None):
+            if not node:
+                return prev
 
-        return rev
+            next, node.next = node.next, prev
+            return reverse(next, node)
+
+        return reverse(head)
