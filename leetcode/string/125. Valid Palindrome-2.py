@@ -1,3 +1,5 @@
+# isalnum 을 이용한 알파벳/숫자 필터링
+
 # isalnum, [::-1]
 
 class Solution:
