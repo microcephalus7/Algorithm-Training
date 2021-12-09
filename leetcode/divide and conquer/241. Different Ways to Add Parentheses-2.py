@@ -1,5 +1,5 @@
 # string 분할 및 string 계산
-# 분할 정복, 재귀
+# DP, 분할 정복, 재귀
 # 보충 필요
 
 class Solution(object):
