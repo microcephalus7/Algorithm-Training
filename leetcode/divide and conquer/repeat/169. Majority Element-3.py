@@ -1,3 +1,4 @@
+# 과반수 찾기
 # 분할 정복, 재귀
 
 class Solution:
@@ -13,5 +14,5 @@ class Solution:
         a = self.majorityElement(nums[:half])
         b = self.majorityElement(nums[half:])
 
-        # 정복
+        # 백 트래킹 (정복)
         return [b, a][nums.count(a) > half]
