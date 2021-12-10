@@ -1,8 +1,6 @@
-# 정규식, counter
+# 문장에서 가장 흔한 단어
 
-# 정규식 이용하여 알파벳 아닌 문자 제거
-# counter 생성
-# most_common
+# 정규식, counter, most_common
 
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
