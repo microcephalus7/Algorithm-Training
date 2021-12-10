@@ -1,8 +1,8 @@
-# 분리
+# 분류한 후 정렬
 
-# 논리
-# isalpha 로 문자열, 숫자열 분리
-# sort 로 정렬
+# 미리 분류 한 후 정렬 후 합체
+# lambda
+# 참고
 
 from typing import List
 
