@@ -1,3 +1,4 @@
+# list 에서 세 수의 합이 0인 값들 구하기
 # 투 포인터
 
 class Solution:
