@@ -1,7 +1,8 @@
-# 슬라이딩 윈도우
+# 문자열에서 가장 긴 팰린드롬 부분 문자열
 
-# 논리
-# 길이 2보다 작거나 뒤집어도 같으면 s return
+# 슬라이딩 윈도우
+# 보충 필요
+
 
 class Solution:
     def longestPalindrome(self, s: str) -> str:
