@@ -1,4 +1,5 @@
-# 역순 노드, while
+# 역순 연결 리스트 만들기
+# while
 
 # Definition for singly-linked list.
 # class ListNode:

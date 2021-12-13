@@ -1,4 +1,4 @@
-# 재귀, 실패
+# 연결 리스트에 다른 연결 리스트 집어넣기
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -6,15 +6,19 @@
 #         self.next = next
 class Solution:
     def mergeInBetween(self, list1: ListNode, a: int, b: int, list2: ListNode) -> ListNode:
-        list1_head = list1
+        start, end = None, list1
 
-        def recur(node: ListNode, index: int):
-            # 앞에꺼 붙이기
-            if index == a - 1:
-                pass
-            # 뒤에꺼 붙이기
-            pass
+        for i in range(b):
+            if i == a - 1:
+                start = end
+            end = end.next
 
-        recur(list1, 0)
+        start.next = list2
 
-        return list1_head
+        while list2.next:
+            list2 = list2.next
+
+        list2.next = end.next
+        end.next = None
+
+        return list1
