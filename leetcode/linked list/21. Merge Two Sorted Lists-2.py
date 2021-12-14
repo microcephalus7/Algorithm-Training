@@ -1,3 +1,7 @@
+# 정렬된 두 연결 리스트 병합
+# 재귀
+# 참고 코드
+
 from typing import Optional
 
 

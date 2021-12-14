@@ -1,4 +1,6 @@
+# 역순 노드 만들기
 # 반복
+
 
 # Definition for singly-linked list.
 # class ListNode:

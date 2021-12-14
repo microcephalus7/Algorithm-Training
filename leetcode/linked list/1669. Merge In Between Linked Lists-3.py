@@ -1,3 +1,6 @@
+# 연결 리스트에 다른 연결 리스트 집어넣기
+# 반복
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
