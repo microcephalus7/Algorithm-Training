@@ -1,3 +1,4 @@
+# 중복 노드 제거하기
 # while, 최적화
 
 class Solution:
