@@ -1,6 +1,5 @@
 # 연결 리스트의 사이 값 뒤집기
-
-# 반복문
+# 반복
 
 # Definition for singly-linked list.
 class ListNode:
@@ -10,30 +9,29 @@ class ListNode:
 
 
 class Solution:
-    # 1 2 3 4 5
-    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+    def reverseBetween(self, head, left, right):
         if left == right:
             return head
 
-        dummy_node = ListNode(0)
-        dummy_node.next = head
-        pre = dummy_node
+        p = dummy = ListNode(0)
+        dummy.next = head
 
-        #
-        for i in range(left - 1):
-            pre = pre.next
+        for _ in range(left - 1):
+            p = p.next
 
-        reverse = None
+        cur = p.next
+        pre = None
 
-        cur = pre.next
+        for _ in range(right - left + 1):
+            cur.next, pre, cur = pre, cur, cur.next
 
-        for i in range(right - left + 1):
-            next = cur.next
-            cur.next = reverse
-            reverse = cur
-            cur = next
+        # 1 -> 2 <- 3 <- 4 5
 
-        pre.next.next = cur
-        pre.next = reverse
+        # cur = 5
+        # pre = 4, 3, 2
+        # 1, 2, 5
+        p.next.next = cur
+        # 1, 4, 3, 2
+        # p.next = pre
 
-        return dummy_node.next
+        return dummy.next
