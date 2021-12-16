@@ -31,7 +31,6 @@ class Solution:
         # pre = 4, 3, 2
         # 1, 2, 5
         p.next.next = cur
-        # 1, 4, 3, 2
-        # p.next = pre
+        p.next = pre
 
         return dummy.next
