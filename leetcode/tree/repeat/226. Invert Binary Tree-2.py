@@ -1,4 +1,8 @@
-# BFS, queue
+# 이진 트리 좌/우 바꾸기
+
+# BFS
+# 반복
+# queue
 
 # Definition for a binary tree node.
 # class TreeNode:

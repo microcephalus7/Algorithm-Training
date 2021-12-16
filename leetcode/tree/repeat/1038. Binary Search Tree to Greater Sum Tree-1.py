@@ -1,4 +1,6 @@
-# BST, 중위 순위 탐색
+# BST 를 GST 로 변환하기
+# DFS,
+# 중위 순위 탐색
 
 # Definition for a binary tree node.
 # class TreeNode:

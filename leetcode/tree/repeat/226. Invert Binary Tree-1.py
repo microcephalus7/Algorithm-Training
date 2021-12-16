@@ -1,4 +1,6 @@
-# DFS, recur
+# 이진 트리 좌/우 바꾸기
+# DFS,
+# 재귀
 
 # Definition for a binary tree node.
 # class TreeNode:

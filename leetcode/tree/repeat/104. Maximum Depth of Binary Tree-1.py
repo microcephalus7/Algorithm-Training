@@ -1,4 +1,8 @@
-# DFS, max, recur
+# 이진 트리의 최고 깊이
+
+# DFS
+# 재귀
+# 참고
 
 # Definition for a binary tree node.
 class TreeNode:

@@ -1,4 +1,9 @@
-# DFS, Recur, or
+# 두 이진 트리 합치기(병합)
+# DFS
+# 재귀
+# or
+# 참고
+
 
 # Definition for a binary tree node.
 class TreeNode:

@@ -1,4 +1,7 @@
-# dfs, recur, max
+# 이진 트리 의 지름
+# dfs,
+# 재귀,
+# max
 
 # Definition for a binary tree node.
 class TreeNode:

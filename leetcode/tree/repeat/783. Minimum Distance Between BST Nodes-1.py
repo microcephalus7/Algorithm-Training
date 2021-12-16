@@ -1,3 +1,7 @@
+# BST 의 노드 끼리의 차 중 가장 작은 값
+# DFS
+# 재귀
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

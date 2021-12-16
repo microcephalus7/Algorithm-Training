@@ -1,4 +1,6 @@
-# DFS, Recur
+# 균형잡힌 이진 트리 인지 확인
+# DFS,
+# 재귀
 
 # Definition for a binary tree node.
 # class TreeNode:

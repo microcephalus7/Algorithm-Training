@@ -1,4 +1,6 @@
-# DFS, Recur
+# 가장 긴 같은 노드 길이
+# DFS
+# 재귀
 
 # Definition for a binary tree node.
 class TreeNode:

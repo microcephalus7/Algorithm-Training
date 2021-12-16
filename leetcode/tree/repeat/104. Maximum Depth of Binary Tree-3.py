@@ -1,4 +1,8 @@
-# DFS, max, stack
+# 이진 트리의 최고 깊이
+
+# DFS
+# max
+# stack
 
 # Definition for a binary tree node.
 class TreeNode:
