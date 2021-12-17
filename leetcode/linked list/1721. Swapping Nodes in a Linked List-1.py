@@ -1,6 +1,7 @@
 # k 번째 노드, Len - k 번쨰 노드 스왑
 # 값만 바꾸기
 # 반복
+# 참고
 
 # Definition for singly-linked list.
 # class ListNode:
