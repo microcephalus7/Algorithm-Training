@@ -8,11 +8,16 @@ class Solution(object):
         self.dfs(candidates, target, [], ret)
         return ret
 
+    # 재귀 함수
     def dfs(self, nums, target, path, ret):
+
         if target < 0:
             return
+
         if target == 0:
             ret.append(path)
             return
+
+        # 탐색 코드
         for i in range(len(nums)):
             self.dfs(nums[i:], target-nums[i], path+[nums[i]], ret)

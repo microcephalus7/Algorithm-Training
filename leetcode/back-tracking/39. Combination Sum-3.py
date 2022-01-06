@@ -7,8 +7,7 @@ class Solution(object):
     def combinationSum(self, candidates, target):
 
         def dfs(nums, target, path):
-            if target < 0:
-                return
+
             if target == 0:
                 ret.append(path)
                 return
