@@ -17,6 +17,8 @@ class Solution:
             left = dfs(root.left)
             right = dfs(root.right)
 
+            # 참고 코드
+            # 한 번 -1 이 나오면 회복불가
             if left == -1 or right == -1 or abs(left - right) > 1:
                 return -1
 
