@@ -7,6 +7,7 @@ class Solution:
         def dfs(arr, path):
             if not arr:
                 result.append(path)
+                return
 
             for i in range(len(arr)):
                 copy_arr = arr[:]

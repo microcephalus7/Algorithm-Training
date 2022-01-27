@@ -1,4 +1,5 @@
-# counter, zip
+# 상위 k 빈도 요소
+# counter, zip, asterisk
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:

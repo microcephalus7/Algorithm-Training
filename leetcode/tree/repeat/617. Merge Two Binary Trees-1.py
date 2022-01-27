@@ -24,4 +24,6 @@ class Solution:
             return node
 
         else:
+            # 있는 거 둘 중 하나 return
+            # 참고
             return root1 or root2
