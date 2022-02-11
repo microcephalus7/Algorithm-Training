@@ -1,5 +1,8 @@
 # BST 의 특정 값 사이의 값들의 합
-# 재귀
+# DFS, 재귀
+# 가지치기
+# 참고
+
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -8,21 +11,19 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    val_sum: int = 0
-
     def rangeSumBST(self, root: Optional[TreeNode], low: int, high: int) -> int:
-        if not root:
-            return
+        def dfs(node: TreeNode):
+            # not node
+            if not node:
+                return 0
 
-        def dfs(node):
-            if low <= node.val <= high:
-                self.val_sum += node.val
+            # node.val 이 low 보다 작을 경우 오른쪽만
+            if node.val < low:
+                return dfs(node.right)
+            # node.val 이 high 보다 클 경우 왼쪽만
+            if node.val > high:
+                return dfs(node.left)
 
-            if node.left:
-                dfs(node.left)
-            if node.right:
-                dfs(node.right)
+            return node.val + dfs(node.left) + dfs(node.right)
 
-        dfs(root)
-
-        return self.val_sum
+        return dfs(root)
