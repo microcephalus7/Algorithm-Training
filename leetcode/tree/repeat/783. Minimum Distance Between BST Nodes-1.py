@@ -1,6 +1,7 @@
 # BST 의 노드 끼리의 차 중 가장 작은 값
 # DFS
-# 재귀
+# 재귀, 중위 순위 탐색
+# 참고
 
 # Definition for a binary tree node.
 # class TreeNode:
