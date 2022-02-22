@@ -1,4 +1,4 @@
-# 가장 큰 합의 길이 K 의 배열
+# 가장 큰 합의 길이 K 의 subsequence 배열
 # heapq
 # heappushpop
 # 참고
@@ -17,4 +17,5 @@ class Solution:
             else:
                 heappush(res, (n, i))
 
+        # 순서 보전
         return [x[0] for x in sorted(res, key=lambda x: x[1])]
